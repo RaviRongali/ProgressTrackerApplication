@@ -1,0 +1,48 @@
+<!-- home.html -->
+
+<html>
+<head>
+<style>
+body {
+    background-color: #20b2aa;
+}
+button.r1 {
+	top:150px;
+	height: 50px;
+    position: fixed;
+    left: 30px;
+    border: 3px solid #73AD21;
+}
+button.r2 {
+	height: 50px;
+    position: fixed;
+    left: 1150px;
+    width: 100px;
+    border: 3px solid #73AD21;
+}
+div.r3 {
+	height: 50px;
+	position: fixed;
+    left: 900px;
+    width: 100px;
+    border: 3px solid #20b2aa;
+}
+div.r4 {
+	top:100px;
+	height: 50px;
+	position: fixed;
+    left: 900px;
+    width: 100px;
+    border: 3px solid #20b2aa;
+}
+</style>
+</head>
+<body>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <div style="color:red" class="r3"><font size="6">{{ user.username }}</font></div>
+    <button class="r2" onclick="window.location.href='/logout/' ">Logout</button>
+
+    <button class="r1" onclick="window.location.href='/logout/' ">previous quizzes</button>
+    <button class="r4" onclick="window.location.href='/logout/' ">students</button>
+</body>
+</html>
